@@ -1,6 +1,9 @@
 # Wormhole-X-treme
 
-Application "Wormhole X-treme" was implmented to demonstrate OpenGL capabilities of the Qt toolkit. It is essentially a space flight simulator through an automatically generated wormhole. GUI elements as well as all graphics and 3D rendering are all implemented using Qt toolkit.
+Application "Wormhole X-treme" was implmented to demonstrate OpenGL capabilities of the Qt toolkit.<br />
+It is essentially a space flight simulator through an automatically generated wormhole.<br />
+GUI elements as well as all graphics and 3D rendering are all implemented using Qt toolkit.<br />
+
 Written in C++ (Qt), utilizes OpenGL.
 ![Wormhole-X-treme screenshot](https://smejkal.software/img/wormhole_scr2.jpg)
 
@@ -21,7 +24,7 @@ Spacebar   - Turbo
 Mouse      - Camera controls (LMB x and y axis, RMB z axis)
 ```
 
-During the Pause camera switches to free mode.
+During the Pause camera switches to free mode.<br />
 During the Play mode camera binds back to the ship.
 
 ## Classes
@@ -40,3 +43,4 @@ vec3	    - Auxiliary class for vector computations
 ## Documentation
 
 `doc` was generated from code using [Doxygen](https://www.doxygen.nl/index.html)
+HINT: Open `doc/index.html` in a browser.
