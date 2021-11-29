@@ -9,7 +9,7 @@ Written in C++ (Qt), utilizes OpenGL.
 
 ## Installation
 
-Installer works natively in Windows and with `wine` in Linux.
+Installer works natively in Windows and with `wine` in Linux.<br />
 Alternatively you can compile the code for your OS with `g++` ([GCC](https://gcc.gnu.org/)).
 
 ## Controls
@@ -24,8 +24,8 @@ Spacebar   - Turbo
 Mouse      - Camera controls (LMB x and y axis, RMB z axis)
 ```
 
-During the Pause camera switches to free mode.<br />
-During the Play mode camera binds back to the ship.
+During the `Pause` mode camera switches to free mode.<br />
+During the `Play` mode camera binds back to the ship.
 
 ## Classes
 
@@ -42,5 +42,5 @@ vec3	    - Auxiliary class for vector computations
 
 ## Documentation
 
-`doc` was generated from code using [Doxygen](https://www.doxygen.nl/index.html)
+`doc` was generated from code using [Doxygen](https://www.doxygen.nl/index.html)<br />
 HINT: Open `doc/index.html` in a browser.
