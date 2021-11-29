@@ -1,8 +1,8 @@
 # Wormhole-X-treme
 
-Application "Wormhole X-treme" was implmented to demonstrate OpenGL capabilities of the Qt toolkit.<br />
-It is essentially a space flight simulator through an automatically generated wormhole.<br />
-GUI elements as well as all graphics and 3D rendering are all implemented using Qt toolkit.<br />
+Developed to demonstrate OpenGL capabilities of the Qt toolkit.<br />
+It is essentially a space flight simulator in an automatically generated wormhole.<br />
+GUI elements as well as all graphics and 3D rendering are all implemented using the Qt toolkit.<br />
 
 Written in C++ (Qt), utilizes OpenGL.
 ![Wormhole-X-treme screenshot](https://smejkal.software/img/wormhole_scr2.jpg)
