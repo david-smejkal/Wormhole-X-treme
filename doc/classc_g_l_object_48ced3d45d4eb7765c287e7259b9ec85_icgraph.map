@@ -1,0 +1,8 @@
+<area shape="rect" id="node3" href="$classc_wormhole.html#71c1e9f5fd2c4fccdf3033579d1f4def" title="Creates openGL display list for wormhole." alt="" coords="173,81,365,109">
+<area shape="rect" id="node5" href="$classc_g_l_widget.html#d9df464c7ffcc23aa64bf4266ee0a6ad" title="Initializes GL." alt="" coords="435,5,592,33">
+<area shape="rect" id="node7" href="$classc_g_l_widget.html#6b370923d2d00eb9a8d891a50045995a" title="Method ensures proper recreation of a wormhole." alt="" coords="413,55,613,83">
+<area shape="rect" id="node15" href="$classc_g_l_widget.html#33018ec9ea4eceed83a15bddadde9926" title="Recreation of a wormhole with new sectors specified." alt="" coords="419,106,608,134">
+<area shape="rect" id="node17" href="$classc_g_l_widget.html#f390af45366f8f3b4b537e71fa2a87c5" title="Recreation of a wormhole with new circle sectors specified." alt="" coords="425,157,601,185">
+<area shape="rect" id="node9" href="$classc_g_l_widget.html#d9c17d70d9acf24ae068afbaf9ce74b4" title="Resets the game." alt="" coords="663,55,785,83">
+<area shape="rect" id="node11" href="$classc_g_l_widget.html#42a300fd19ad1ad0304df194870ddd23" title="Check for collisions." alt="" coords="836,30,1020,58">
+<area shape="rect" id="node13" href="$classc_g_l_widget.html#23f8e50cf1c6ff4a118ff7f759d693ec" title="Handles key pressing." alt="" coords="837,81,1019,109">

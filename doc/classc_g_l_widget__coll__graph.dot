@@ -1,0 +1,28 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="cGLWidget",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="obj3\nobj2",fontname="FreeSans"];
+  Node2 [label="cGLObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_g_l_object.html",tooltip="Basic model for every openGL object in scene (wormhole, ufo, etc.)."];
+  Node3 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="obj2OGL",fontname="FreeSans"];
+  Node3 [label="cObj2OGL",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_obj2_o_g_l.html",tooltip="Obj file parser."];
+  Node4 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="textures\nnormals\nvertices",fontname="FreeSans"];
+  Node4 [label="sPoint3",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="ufo\nobj1",fontname="FreeSans"];
+  Node5 [label="cUfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_ufo.html",tooltip="Unidentified Flying Object."];
+  Node2 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 -> Node5 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="pos",fontname="FreeSans"];
+  Node6 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="parentCWidget",fontname="FreeSans"];
+  Node6 [label="cMainWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_main_window.html",tooltip="Base window contains opengl widget and GUI."];
+  Node1 -> Node6 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="glWidget",fontname="FreeSans"];
+  Node7 -> Node6 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="dialog_settings",fontname="FreeSans"];
+  Node7 [label="cDSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_d_settings.html",tooltip="Wrapper for settings.ui, created by Qt Designer."];
+  Node6 -> Node7 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="parentCWidget",fontname="FreeSans"];
+  Node8 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="wormhole",fontname="FreeSans"];
+  Node8 [label="cWormhole",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_wormhole.html",tooltip="Unpredictably curved &quot;tube&quot;. Object of high importance in application."];
+  Node2 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 -> Node8 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="sectors",fontname="FreeSans"];
+  Node9 [label="sSector",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node9 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="circle\nnormals\nsplinePoint",fontname="FreeSans"];
+}
