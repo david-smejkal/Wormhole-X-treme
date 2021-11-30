@@ -33,7 +33,7 @@ During the `Play` mode camera binds back to the ship.
 cDSettings  - Wrapper for settings.ui, created by Qt Designer
 cGLObject   - Basic model for every openGL object in scene (wormhole, ufo, etc.)
 cGLWidget   - OpenGL widget, heart of the application. Calculations, painting, etc
-cMainWindow	- Base window contains opengl widget and GUI
+cMainWindow - Base window contains opengl widget and GUI
 cObj2OGL    - Obj file parser
 cUfo        - Unidentified Flying Object
 cWormhole   - Unpredictably curved "tube". Object of high importance in application
