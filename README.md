@@ -1,8 +1,8 @@
 # Wormhole-X-treme
 
-Developed to demonstrate OpenGL capabilities of the Qt toolkit.<br />
-It is essentially a space flight simulator in an automatically generated wormhole.<br />
-GUI elements as well as all graphics and 3D rendering are all implemented using the Qt toolkit.<br />
+Developed to demonstrate OpenGL capabilities of the [Qt](https://www.qt.io/) toolkit.<br />
+It's essentially a space flight simulator in an automatically generated wormhole.<br />
+GUI elements as well as other graphics and 3D rendering are all implemented using the Qt toolkit.<br />
 
 Written in C++ (Qt), utilizes OpenGL.
 ![Wormhole-X-treme screenshot](https://smejkal.software/img/wormhole_scr2.jpg)
@@ -31,13 +31,13 @@ During the `Play` mode camera binds back to the ship.
 
 ```
 cDSettings  - Wrapper for settings.ui, created by Qt Designer
-cGLObject	- Basic model for every openGL object in scene (wormhole, ufo, etc.)
-cGLWidget	- OpenGL widget, heart of the application. Calculations, painting, etc
+cGLObject   - Basic model for every openGL object in scene (wormhole, ufo, etc.)
+cGLWidget   - OpenGL widget, heart of the application. Calculations, painting, etc
 cMainWindow	- Base window contains opengl widget and GUI
-cObj2OGL	- Obj file parser
-cUfo	    - Unidentified Flying Object
-cWormhole	- Unpredictably curved "tube". Object of high importance in application
-vec3	    - Auxiliary class for vector computations
+cObj2OGL    - Obj file parser
+cUfo        - Unidentified Flying Object
+cWormhole   - Unpredictably curved "tube". Object of high importance in application
+vec3        - Auxiliary class for vector computations
 ```
 
 ## Documentation
