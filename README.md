@@ -42,5 +42,5 @@ vec3         - Auxiliary class for vector computations
 
 ## Documentation
 
-`doc` was generated from code using [Doxygen](https://www.doxygen.nl/index.html)<br />
-HINT: Open `doc/index.html` in a browser.
+Open `doc/index.html` with a browser.<br />
+`doc` was generated from code using [Doxygen](https://www.doxygen.nl/index.html)
